@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#ff52c596; 
+    color:white;
+    font-family: arial;
+    font-size: 16px;
+    }
+
+div{
+    width: 500px;
+    height: 250;
+    background-color:#ebe70867;
+    color: black;
+    margin: 10px; 
+    padding: 20px 40px 30px 20px;
+    border: 1px solid #999999;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: 3px 3px 5pxrgb(39,102,61);
+   }
+
+ ul{
+     margin-top: 0;
+     list-style: none; 
+ }  
+
+ ul li
+ {
+     font-family: arial;
+     font-size: 16px;
+     height: 50px;
+ }
+
+ ul li a 
+ {
+     width: 300px;
+     height: 50px;
+     background-color: #ebe70867;
+     display: block;
+     border-left: 5px solid #ebe70867;
+     border-right:5 px solid tan;
+     padding-left: 10px;
+     text-decoration: none;
+     color: #eb2b2b;   
+ }
+
+ ul li a:hover
+ {
+     margin-left: 10px;
+     color: beige;
+     box-shadow: 10px 10px 20px #000000;
+     transform: rotate(4deg);
+     -moz-transform: rotate(4deg);
+     -webkit-transform: rotateX(1deg); 
+ }
+
+ td
+ {
+     vertical-align: top;   
+ }
+
+ .encabezado
+ {
+    height: 180px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    border: 0px;
+    background-color: #f52;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+ }
+
+ .piePagina
+ {
+    height: 100px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    border: 0px;
+    background-color: #ff5252:
+ }
